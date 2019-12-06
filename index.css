@@ -1,0 +1,36 @@
+body {
+  background-image: url(img1.jpg);
+  background-size: cover;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+header{
+  padding: 30px;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.tc {
+  text-align: center;
+  color: black;
+  font-size: 1.2rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  writing-mode: vertical-lr;
+
+}
+
+a:hover {
+display: flex;
+  box-shadow: 0px 0px 10px white;
+  transition: all 1.2s  ease-in-out;
+  border-radius: 4px;
+  padding: 10px;
+}
+div{
+  display: flex;
+  justify-content: space-around;
+}
